@@ -172,6 +172,12 @@ span {
 #letsConnect {
   text-align: center;
 }
+//Added itaic and bold for layout
+.contentLocation {
+	 font-style: italic !important;
+	 color:red !important;
+	
+}
 
 @media only screen and (max-width: 1024px) {
   #letsConnect {
@@ -209,6 +215,7 @@ span {
   width: 100%;
   padding-bottom: 5%;
 }
+
 
 @media only screen and (min-width: 750px) {
   #skillsH3,
