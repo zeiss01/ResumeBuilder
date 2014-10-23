@@ -172,12 +172,6 @@ span {
 #letsConnect {
   text-align: center;
 }
-//Added itaic and bold for layout
-.contentLocation {
-	 font-style: italic !important;
-	 color:red !important;
-	
-}
 
 @media only screen and (max-width: 1024px) {
   #letsConnect {
@@ -214,6 +208,12 @@ span {
   height: 400px;
   width: 100%;
   padding-bottom: 5%;
+}
+.ImageBorder
+{
+	border-width: 2px;
+	border-color: gray;
+	border-style: solid;
 }
 
 

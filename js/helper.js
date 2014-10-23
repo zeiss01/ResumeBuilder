@@ -40,7 +40,7 @@ var HTMLprojectStart = "<div class='project-entry'></div>";
 var HTMLprojectTitle = "<a href='#'>%data%</a>";
 var HTMLprojectDates = "<div class='date-text'>%data%</div>";
 var HTMLprojectDescription = "<p><br>%data%</p>";
-var HTMLprojectImage = "<img src='%data%'>";
+var HTMLprojectImage = "<img src='%data%'  class='ImageBorder'>";
 
 var HTMLschoolStart = "<div class='education-entry'></div>";
 var HTMLschoolName = "<a href='#'>%data%";
@@ -163,7 +163,7 @@ function initializeMap() {
       title: name
     });
 	//create new content to style it
-    var contentString = '<div id="content" class="contentLocation">'+
+    var contentString = '<div id="content" style="border: 1px solid black; margin-top: 8px; background: orange; padding: 5px;  font-weight: bold;">'+
          name+
          '</div>';
     

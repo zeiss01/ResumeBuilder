@@ -109,7 +109,7 @@ var projects = {
 		"title": "News Website",
 		"dates": "November 2013",
 		"description": "Implemented a website which gathers the latest news feeds from xml format of different news agencies and has the ability to share news in Facebook. Using Node.js in server side running in Amazon EC2 cloud platform. For client side used Backbone.js, HTML5, Twitter bootstrap framework.",
-		"images": ["www.clicknewsup.com"]
+		"images": ['http://i.imgur.com/PhC5STL.png']
 
 	}],
 	//Display projects in resume page
@@ -135,14 +135,7 @@ var projects = {
 }
 //////////////////////////////////////////////////EDUCATION/////////////////////////////////////////////////////////////////
 var education = {
-	"schools": [{
-		"name": "Universtity Of Tehran",
-		"location": "Tehran, Iran",
-		"degree": "Bachelor",
-		"majors": ["ComputerScience"],
-		"dates": "August 2006 - May 2009"
-
-	}, {
+	"schools": [ {
 		"name": "Worcester Polytechnic Institute",
 		"location": "Worcester, MA",
 		"degree": "Master",
@@ -154,18 +147,18 @@ var education = {
 		"title": "Tackling the Challenges of Big Data",
 		"school": "MIT",
 		"dates": "February 2014",
-		"url": "www.wpi.edu"
+		"url": "https://mitprofessionalx.edx.org/courses/MITProfessionalX/6.BD_2X/3T2015/about"
 	}, {
 		"title": "Data Wrangling with MongoDB",
 		"school": "Udacity",
 		"dates": "May 2014",
-		"url": "www.wpi.edu"
+		"url": "https://www.udacity.com/course/ud032"
 
 	}, {
 		"title": "MongoDB for Node.js Developers",
 		"school": "MongoDB",
 		"dates": "July 2014",
-		"url": "www.wpi.edu"
+		"url": "https://university.mongodb.com/courses/M101JS/about"
 	}],
 	//Display education in my resume page
 	display: function() {
